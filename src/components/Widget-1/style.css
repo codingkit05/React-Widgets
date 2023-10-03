@@ -1,0 +1,59 @@
+/*====================genral================*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/*===============widget================*/
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background: #dcdcdc;
+}
+
+.widget {
+  height: 100vh;
+}
+
+.widget .box {
+  background-color: #fff;
+  border-radius: 10px 10px 0 0;
+  width: 46.5rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.widget .box .btns {
+  font-family: "Roboto", sans-serif;
+}
+
+.widget .box .btns .btn {
+  width: 15.5rem;
+  height: 3.2rem;
+  border-width: 3.2px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-radius: 0;
+  box-shadow: rgba(0, 0, 0, 0.299) 0px 1px 3px, rgba(0, 0, 0, 0.299) 0px 1px 2px;
+}
+
+.widget .box .btns .btn:active {
+  box-shadow: none;
+}
+
+.widget .box-2 {
+  width: 46.5rem;
+  border-radius: 0 0 10px 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.widget .box-2 .detail {
+  width: 140rem;
+}
+
+.widget .box-2 .detail .para {
+  background-color: #fff;
+  font-style: italic;
+  color: #999999;
+  line-height: 1.9rem;
+  padding: 2.2rem 3.6rem;
+  transition: ease-in-out 0.5s;
+}
